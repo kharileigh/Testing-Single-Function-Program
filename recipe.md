@@ -33,7 +33,7 @@ def make_snippet(str):
 
 
 ## 4. Implement the Behaviour
-<!-- After each test you write, follow the test-driving process of red, green, refactor to implement the behaviour -->
+FAIL TEST -- CODE -- PASS TEST -- FAIL NEW TEST -- REFACTOR -- PASS TEST
 
 
 
@@ -65,4 +65,30 @@ def count_words(text):
 
 
 ## 4. Implement the Behaviour
-<!-- After each test you write, follow the test-driving process of red, green, refactor to implement the behaviour -->
+FAIL TEST -- CODE -- PASS TEST -- FAIL NEW TEST -- REFACTOR -- PASS TEST
+
+
+
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+## 1. Describe the Problem
+-- calculate reading time for text
+
+## 2. Design the Function Signature
+-- def reading_estimation(text):
+				
+        split text into singular words
+        count length singular words
+        word count divided by 200
+        estimation equals f"Reading time estimation is : {word count} minutes"
+        return estimation
+
+## 3. Create Examples as Tests
+
+    -- empty
+    -- 100 words -- below 1 minute
+    -- 200 words -- equals 1 minute
+    -- 400 words -- 2 minutes
+
+## 4. Implement the Behaviour
+FAIL TEST -- CODE -- PASS TEST -- FAIL NEW TEST -- REFACTOR -- PASS TEST
