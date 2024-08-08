@@ -1,0 +1,8 @@
+**/.DS_Store
+
+*-venv
+-venv
+*venv*
+_env
+-env
+function-venv
