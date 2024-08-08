@@ -12,8 +12,14 @@ def make_snippet(str):
 
 ## 3. Create Examples as Tests
 <!-- Make a list of examples of what the function will take and return. -->
-make_snippet("I love you so much, it kills me)
-returns I love you so much....
+
+>>>> GIVEN EMPTY STRING, RETURNS EMPTY STRING
+
+>>>>> GIVEN MORE THAN 5 WORDS, RETURNS ONLY 5 WORDS & ...
+
+>>>>> GIVEN LESS THAN 5 WORDS, RETURNS STRING
+
+
 
 ## 4. Implement the Behaviour
 <!-- After each test you write, follow the test-driving process of red, green, refactor to implement the behaviour -->
