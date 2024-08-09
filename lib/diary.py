@@ -16,3 +16,4 @@ def diary(notes, tasks):
             # IF - to check if word is in current string
             if tasks in note:
                 return note
+            return f"{tasks} is not in notes"
