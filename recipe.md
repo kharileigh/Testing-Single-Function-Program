@@ -46,6 +46,50 @@ FAIL TEST -- CODE -- PASS TEST -- FAIL NEW TEST -- REFACTOR -- PASS TEST
 
 
 
+
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
+## 1. Describe the Problem
+As a user
+So that I can improve my grammar
+I want to verify that a text starts with a capital letter and ends with a suitable sentence-ending punctuation mark.
+
+------  checks text for specific punctuation
+
+
+## 2. Design the Function Signature
+-- def check_grammar(text):
+        Parameters :
+        string containing multiple words
+
+        Functionality :
+        
+
+        Returns :
+        
+
+## 3. Create Examples as Tests
+
+# NO ARGUMENTS
+
+	
+# ONE ARGUMENT, NEEDS TWO
+
+		
+# TWO ARGUMENTS
+
+
+
+
+## 4. Implement the Behaviour
+FAIL TEST -- CODE -- PASS TEST -- FAIL NEW TEST -- REFACTOR -- PASS TEST
+
+
+
+
+
+
+
 <!----------------------------------------------------------------->
 <!----------------------------------------------------------------->
 A function called make_snippet that takes a string as an argument and returns the first five words and then '...' if there are more than that 
