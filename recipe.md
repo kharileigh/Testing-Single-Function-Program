@@ -1,3 +1,53 @@
+<!--------------------------------------------------------------------------------------->
+<!------------------CORRECT DESIGN RECIPE -------------------------------------------------->
+## 1. Describe the Problem
+As a user
+So that I can find my tasks among all my notes
+I want to check if a line from my notes includes the string '#TODO'
+
+------ User wants to find a line from notes with a specific word given
+------ Find a given string in a list of strings that includes word given
+
+
+## 2. Design the Function Signature
+-- def diary(notes, tasks):
+        Parameters :
+        tasks -- what user is looking for : "#TODO"
+        notes -- list of notes holding all tasks
+
+        Functionality :
+        loop through every string in notes
+        checking if current string includes given word (tasks)
+        if includes word, return that string to user
+
+        Returns :
+        string including word : f"Tasks {word}"
+
+## 3. Create Examples as Tests
+
+# NO ARGUMENTS
+diary() => raises error, need to input data 
+	
+# ONE ARGUMENT, NEEDS TWO
+diary() => raises error, need to input data
+		
+# TWO ARGUMENTS
+diary() => returns string including word 
+
+## 4. Implement the Behaviour
+FAIL TEST -- CODE -- PASS TEST -- FAIL NEW TEST -- REFACTOR -- PASS TEST
+
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------------------------->
+<!----------------------------------------------------------------->
 A function called make_snippet that takes a string as an argument and returns the first five words and then '...' if there are more than that 
 
 ## 1. Describe the Problem
@@ -92,3 +142,13 @@ FAIL TEST -- CODE -- PASS TEST -- FAIL NEW TEST -- REFACTOR -- PASS TEST
 
 ## 4. Implement the Behaviour
 FAIL TEST -- CODE -- PASS TEST -- FAIL NEW TEST -- REFACTOR -- PASS TEST
+
+
+
+
+
+
+
+
+
+
